@@ -1,0 +1,199 @@
+body
+{
+  align-items: center;
+  color: #40514E;
+  font-family: Merriweather, serif;
+  font-size: 2rem;
+  margin: auto;
+  text-align: center;
+}
+
+hr
+{
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 15%; /*You can set the height and width to either a flat pixel value or a percentage value  */
+  /* Percentage of the page  */
+  /* This is to set the hr to grey */
+}
+
+h1
+{
+  color:  #66BFBF;
+  font-family: Sacramento, sans-serif;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 100px auto 0 auto;
+}
+
+h2
+{
+  color:  #66BFBF;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
+  margin: 0 0 100px 0;
+}
+
+h3
+{
+  color:  #11999E;
+  font-family: Montserrat, sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+
+.intro
+{
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+p
+{
+  line-height: 2;
+}
+
+a
+{
+  color:  #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #EAF6F6;
+}
+
+
+.top-container
+{
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+
+  /* height: 200px; */
+  /* width: 200px; */
+}
+
+.middle-container
+{
+  /* background-color: turquoise; */
+  margin: 100px auto;
+  width: 70%;
+}
+
+.bottom-container
+{
+  background-color: #66BFBF;
+  /* bottom: 0; */
+  margin: auto;
+  padding: 50px 0 2px;
+  /* position: absolute; */
+}
+
+.cpp-img
+{
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.arduino-img
+{
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+.skill-row
+{
+  margin: 100px auto 100px auto;
+  text-align: left;
+  /* width: 50%; */
+
+}
+
+.pro
+{
+  text-decoration: underline;
+}
+
+.programmer
+{
+  font-weight: normal;
+}
+
+.top-cloud
+{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud
+{
+  bottom: 300px;
+  left: 250px;
+  position: absolute;
+}
+
+/* IMAGES */
+.mountain
+{
+  display: block;
+}
+
+.profile-pic
+{
+  border-radius: 50%;
+  margin: auto;
+}
+
+.copyright
+{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px;
+}
+
+.contact-message
+{
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.btn {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #96e3ff 5%, #408c99 100%);
+  background-color: #96e3ff;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+  margin-bottom: 30px;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #96e3ff 100%);
+  background-color: #408c99;
+}
